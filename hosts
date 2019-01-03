@@ -1,34 +1,45 @@
-#
-# This file contains the mappings of IP addresses to host names. Each
-# entry should be kept on an individual line. The IP address should
-# be placed in the first column followed by the corresponding host name.
-# The IP address and the host name should be separated by at least one
-# space.
-#
-# Additionally, comments (such as these) may be inserted on individual
-# lines or following the machine name denoted by a '#' symbol.
-#
-# For example:
-#
-#      102.54.94.97     rhino.acme.com          # source server
-#       38.25.63.10     x.acme.com              # x client host
-
-# localhost name resolution is handled within DNS itself.
-#	127.0.0.1       localhost
-#	::1             localhost
-
 # This hosts file is a merged collection of hosts from reputable sources,
 # with a dash of crowd sourcing via Github
 #
-
+# Date: 01 January 2018 05:53:10 (UTC)
+# Extensions added to this file: Social, Videos, news
+# Number of unique domains: 5
 #
-#
+# Project home page: https://github.com/abrahamcid/test/blob/master/hosts
+# Project releases: https://github.com/abrahamcid/test/blob/master/hosts
 #
 # ===============================================================
+
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+# Custom host records are listed here.
+
+
+# End of custom host records.
+
+#=====================================
+# Hosts contributed by Steven Black
 #Start Abraham Cid DNS
-# Video Online
+# Videos Online
 0.0.0.0 netflix.com
 0.0.0.0 youtube.com
+
+#Buy Online
 0.0.0.0 amazon.com
+
+#Newspapers
 0.0.0.0 diariolibre.com.do
 0.0.0.0 google.com
